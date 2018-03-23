@@ -22,11 +22,10 @@
       }
     ],
     "ports": [
-      ":5060/udp",
-      ":5080/udp",
-      ":20000-20059/udp",
-      ":8081/tcp",
-      ":8082/tcp"
+      "5060/udp",
+      "5080/udp",
+      "8081/tcp",
+      "8082/tcp"
     ],
     "volumes": ["/usr/local/freeswitch/conf","/usr/local/freeswitch/db","/usr/local/freeswitch/xui"]
   },
