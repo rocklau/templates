@@ -3,7 +3,7 @@
     "type": "container",
     "title": "XSWITCH",
     "description": "电话软交换和通信协作平台",
-    "categories": ["docker"],
+    "categories": ["xyt"],
     "platform": "linux",
     "logo": "http://xswitch.cn/images/xswitch-logo.png",
     "image": "dujinfang/xswitch-xui-dev:latest",
@@ -18,14 +18,14 @@
       },
       {
         "name": "EXT_IP",
-        "label": "RTP public IP"
+        "label": "rtp public ip"
       }
     ],
     "ports": [
       ":5060/udp",
       ":5080/udp",
       ":8081/tcp",
-      ":8082/tcp",
+      ":8082/tcp"
     ],
     "volumes": ["/usr/local/freeswitch/conf","/usr/local/freeswitch/db","/usr/local/freeswitch/xui"]
   },
