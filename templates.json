@@ -6,7 +6,7 @@
     "categories": ["xyt"],
     "platform": "linux",
     "logo": "http://xswitch.cn/images/xswitch-logo.png",
-    "image": "dujinfang/xswitch-xui-dev:latest",
+    "image": "ccr.ccs.tencentyun.com/xswitch/xswitch:0.1",
     "env": [
       {
         "name": "RTP_START",
